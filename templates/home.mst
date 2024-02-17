@@ -1,0 +1,16 @@
+<h1 style=\"font-size:50px\";>Elenco alunni!</h1>
+{{{html}}}
+<p> Elenco alunni by Gioele</p>
+<ul>
+{{#getArray}}
+<li>
+<h3>Nome: <b>{{getNome}}</b></h3>
+<h3>Cognome: <b>{{getCognome}}</b></h3>
+<h3>Età: <b>{{getEta}}</b></h3>
+</li>
+{{/getArray}}
+
+</ul>
+{{#script}}
+<script>{{{script}}}</script>
+{{/script}}
