@@ -1,0 +1,16 @@
+{{{html}}}
+{{#Alunno}}
+<h1>Alunno {{getNome}} presente</h1>
+<p>Risultato per {{getNome}}</p>
+<h3>Nome: <b>{{getNome}}</b></h3>
+<h3>Cognome: <b>{{getCognome}}</b></h3>
+<h3>Età: <b>{{getEta}}</b></h3>
+{{/Alunno}}
+
+{{^Alunno}}
+<h3>Alunno non presente!</h3>
+{{/Alunno}}
+
+{{#script}}
+<script>{{{script}}}</script>
+{{/script}}
